@@ -30,9 +30,6 @@ Route::prefix('admin')->group(function () {
 
     Route::get('/users/table', [UserController::class, 'table'])->name('users.table');
     Route::resource('/users', UserController::class);
-    
-    Route::resource('/roles', RoleController::class);
-    Route::resource('/permissions', PermissionController::class);
 
 });
 
