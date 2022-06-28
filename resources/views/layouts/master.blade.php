@@ -44,9 +44,10 @@
 					
 					<div class="aside-logo flex-column-auto" id="kt_aside_logo">
 						
-						<a href="#">
-							<img alt="Logo" src="{{ asset('gapp') }}/media/logos/logo-1-dark.svg" class="h-25px logo" />
-						</a>
+						
+						<h4><a href="#">
+							Fkb
+						</a></h4>
 						
 						<!--begin::Aside toggler-->
 						@include('layouts.partials._sidebar_toggle')
@@ -112,7 +113,6 @@
 
 		<script src="{{ asset('gapp') }}/js/custom/widgets.js"></script>
 
-		<script src="{{ asset('gapp') }}/js/custom/apps/chat/chat.js"></script>
 
 		<!-- <script src="{{ asset('gapp') }}/js/custom/utilities/modals/upgrade-plan.js"></script>
 
